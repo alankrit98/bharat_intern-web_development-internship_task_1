@@ -1,146 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal PortFolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+<title>Personal Portfolio</title>
 </head>
 <body>
-    <div id="navbar">
-        <div class="class">
-            <div class="navbar">
-                <div class="logo">
-                    <span style="color:blue">PortFolio</span>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="#header">Home</a></li>
-                        <li> <a href="#about">About</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">PortFolio</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+<header class="header">
+<nav class="nav">
+<div>
+<a href="#" class="nav__logo">PORTFOLIO</a>
+</div>
+<div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+            <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+</div>
+<div class="nav__toggle" id="nav-toggle">
+<i class='bx bx-menu'></i>
+</div>
+</nav>
+</header>
+<main class="l-main">
+<section class="home bd-grid" id="home">
+<div class="home__data">
+<h1 class="home__title"> <br>Hi, <br>I am <span class="home__title-color"> ALANKRIT <br> AGARWAL</span><br> Our Portfolio. </h1>
+<a href="#" class="button">Contact</a>
+</div>
+<div class="home__img">    
+<img src="images/logo.avif" alt="">
+</div>
+</section>
+<section class="about section " id="about">
+<h2 class="section-title">About</h2>
+<div class="about__container bd-grid">
+<div class="about__img">
+<img src="images/logo.avif" alt="">
+</div>
+<div>
+<h2 class="about__subtitle"><span class="home__title-color">I am Front-end Developer</span></h2>
+<p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sint esse ab officia error soluta.</p>
+</div>                                   
+</div>
+</section>
+<section class="skills section" id="skills">
+<h2 class="section-title">Skills</h2>
+<div class="skills__container bd-grid">          
+<div>
+<h2 class="skills__subtitle">Professional Skills</h2>
+<p class="skills__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eligendi neque a nulla minima sequi, quas cupiditate quos at dolorum nesciunt, provident tempore possimus ut, expedita aliquid earum repellendus illo commodi corrupti praesentium dolorem sed perspiciatis delectus. Consectetur, ullam voluptate?</p>
+<div class="skills__data">
+<div class="skills__names">
+<span class="skills__name">Lorem.</span>
+</div>
+<div>
+<span class="skills__percentage">90%</span>
+</div>
+</div>
+<div class="skills__data">
+    <div class="skills__names">
+        <span class="skills__name">Lorem.</span>
     </div>
-
-
-    <div id="header">
-        <div class="header">
-            <div class="head-section">
-                <div class="text">
-                    <h2>Hello Everyone!!!!</h2>
-                    <h3>It's Me,</h3>
-                    <h1>ALANKRIT AGARWAL</h1>
-                    <h4>I am a <span>Front-end Developer!!!!</span></h4>
-                    <p>
-                        This is the Small Introduction of Myself, I want to improve Myself and my Goal is to become a Successful Engineer and serve for the Nation
-                    </p>
-                </div>
-                <div class="image"><img src="images/1663685902145.jpeg" alt="Unable to load the Image"></div>
-            </div>
-        </div>
+    <div>
+        <span class="skills__percentage">80%</span>
     </div>
-
-
-    <div id="about">
-        <div class="about">
-            <div class="about-section">
-                <div class="image">
-                    <img src="images/1688495679668.jpg" alt="Unable to load the Image">
-                </div>
-                <div class="text">
-                    <h4 style="font-size: 35px;">About Myself</h4>
-                    <h4 style="font-size: 25px;">Front-End <span style="color: White;"> Developer!!</span></h4>
-                    <p>
-                        I am a very Hardworking Person always ready to Learn New Things <br>
-                        I am recently pursuing my Graduation Degree of Bachelor of Technology from G.L. Bajaj Institute of Technology and Management Gautam Buddh Nagar <br>
-                    </p>
-                    <button>Read More...</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div id="services">
-        <h1>Our <span>Services</span></h1>
-        <div class="services">
-            <div class="service-section">
-                <div class="box">
-                    <ul class="service">
-                        <h3>Web Development</h3>
-                        <p>
-                            I am currently studying in Web-Development and trying to mastering it
-                            as, I learn the Quote Try-Try but Don't Cry
-                        </p>
-                        <button>Read More...</button>
-                    </ul>
-                </div>
-                <div class="box">
-                    <ul class="service">
-                        <h3>Web Development</h3>
-                        <p>
-                            I am currently studying in Web-Development and trying to mastering it
-                            as, I learn the Quote Try-Try but Don't Cry
-                        </p>
-                        <button>Read More...</button>
-                    </ul>
-                </div>
-                <div class="box">
-                    <ul class="service">
-                        <h3>Web Development</h3>
-                        <p>
-                            I am currently studying in Web-Development and trying to mastering it
-                            as, I learn the Quote Try-Try but Don't Cry
-                        </p>
-                        <button>Read More...</button>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div id="portfolio">
-        <h1><span>Our PortFolio</span></h1>
-        <div class="portfolio">
-            <div class="portfolio-section">
-                <div class="imgs"><img src="images/pexels-cameron-casey-1152853.jpg" alt="Unable to load the Image"></div>
-                <div class="imgs"><img src="images/pexels-cottonbro-studio-5741061.jpg" alt="Unable to load the Image"></div>
-                <div class="imgs"><img src="images/pexels-julia-kuzenkov-2996261.jpg" alt="Unable to load the Image"></div>
-                <div class="imgs"><img src="images/pexels-sergio-souza-3772226.jpg" alt="Unable to load the Image"></div>
-                <div class="imgs"><img src="images/pexels-tim-mossholder-1080884.jpg" alt="Unable to load the Image"></div>
-                <div class="imgs"><img src="images/pexels-todd-trapani-1837687.jpg" alt="Unable to load the Image"></div>
-            </div>
-        </div>
-    </div>
-
-
-    <div id="contact">
-        <div class="contact">
-            <h3>Contact <span>Me!!</span></h3>
-            <div class="contact-section">
-                <form>
-                    <input type="text" placeholder="Your Name">
-                    <input type="text" placeholder="E-mail Address">
-                    <input type="text" placeholder="Mobile">
-                    <input type="text" placeholder="Gender">
-                    <textarea name="Write Message" id="" cols="30" rows="10" placeholder="Read Message"></textarea>
-                    <button>Submit</button>
-                </form>
-                <p>You can also Contact me: </p>
-                <a href="https://www.google.com">Contact Us</a>
-            </div>
-        </div>
-    </div>
-
-
-    <footer>
-        <h3>All Rights Reserved &copy; DesignedbyAA</h3>
-    </footer>
+</div>
+<div class="skills__data">
+    <div class="skills__names">
+<span class="skills__name">Lorem.</span>
+</div>
+<div>
+<span class="skills__percentage">60%</span>
+</div>
+</div>
+</div>
+<div>              
+<img src="images/computer.jpg" alt="" class="skills__img">
+</div>
+</div>
+</section>
+<section class="work section" id="work">
+<h2 class="section-title">Work</h2>
+<div class="work__container bd-grid">
+<div class="work__img">
+        <img src="images/css.png" alt="">
+</div>
+<div class="work__img">
+        <img src="images/html.png" alt="">
+</div>
+<div class="work__img">
+        <img src="images/java.png" alt="">
+</div>
+</div>
+</section>
+<section class="contact section" id="contact">
+<h2 class="section-title">Contact</h2>
+<div class="contact__container bd-grid">
+<form action="" class="contact__form">
+<input type="text" placeholder="Name" class="contact__input">
+<input type="mail" placeholder="Email" class="contact__input">
+<textarea name="" id="" cols="0" rows="10" placeholder="Read Message" class="contact__input"></textarea>
+<input type="button" value="Enter" class="contact__button button">
+</form>
+ </div>
+</section>
+</main>
+<footer class="footer">
+        <p class="footer__title">Developer</p>
+        <div class="footer__social">
+<a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+<a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+<a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+</div>
+<span class="copyright">CopyRight &copy; All Rights Reserved.</span>
+</footer>
 </body>
 </html>
